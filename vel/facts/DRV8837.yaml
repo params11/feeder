@@ -1,0 +1,1377 @@
+absent: []
+at: '2026-10-26T14:51:51.409131+00:00'
+by: bac21ed8-89f8-479f-84b9-a74f46e678a9
+doc_path: vel/datasheets/DRV8837.pdf
+doc_sha256: 3092ce1aa74c098d1bc881f23f3f71846d760b75128bd5a76de04acfcaebdfc2
+facts:
+- conditions:
+    PWM: 50kHz
+    supply: VCC
+    temp: 25C
+    vcc: 3V
+    vm: 5V
+  confidence: 0.0
+  hi: 0.0015
+  lo: null
+  nominal: 0.0007
+  page: 8
+  qualifiers:
+    mode: switching
+  quantity: current_active
+  record: "{\"id\":\"fact:DRV8837:current_active:9967dae4\",\"claim\":\"DRV8837 current_active\
+    \ is typ 0.0007, max 0.0015 A at supply=VCC, vm=5V, vcc=3V, temp=25C, PWM=50kHz\"\
+    ,\"kind\":\"value\",\"origin\":{\"by\":\"model\",\"name\":\"azure/gpt-6.1-sol\"\
+    ,\"company\":\"openai\",\"at\":null},\"basis\":\"read from DRV8837.pdf page 8\"\
+    ,\"checks\":[{\"kind\":\"source\",\"by\":\"code\",\"who\":\"skanda.compiler.documents.audit.verify\"\
+    ,\"company\":null,\"result\":\"agrees\",\"detail\":\"page 8 of DRV8837.pdf shows\
+    \ typ 0.0007, max 0.0015 A\",\"at\":null},{\"kind\":\"units\",\"by\":\"code\"\
+    ,\"who\":\"skanda.confidence.checks\",\"company\":null,\"result\":\"couldnt_run\"\
+    ,\"detail\":\"Nothing to compare: no unit is expected.\",\"at\":null},{\"kind\"\
+    :\"plausibility\",\"by\":\"code\",\"who\":\"skanda.confidence.checks\",\"company\"\
+    :null,\"result\":\"agrees\",\"detail\":\"The claim says 700 \xB5A, inside at most\
+    \ 1.5 mA from the same row's min and max in DRV8837.pdf.\",\"at\":null},{\"kind\"\
+    :\"independent_read\",\"by\":\"model\",\"who\":\"bedrock/mistral.mistral-large-3-675b-instruct\"\
+    ,\"company\":\"mistral\",\"result\":\"couldnt_run\",\"detail\":\"a second reader\
+    \ could not read DRV8837.pdf for this; it tries again next compile\",\"at\":null}],\"\
+    supports\":[],\"contradicts\":[],\"assumes\":[],\"would_settle\":[{\"action\"\
+    :\"open DRV8837.pdf page 8 and check the unit it gives\",\"outcomes\":[\"the unit\
+    \ fits: it stands\",\"another unit: correct it\"],\"effort\":\"desk\"},{\"action\"\
+    :\"have a second reader check it\",\"outcomes\":[\"the reader agrees: it stands\"\
+    ,\"the reader disagrees: the engineer decides\"],\"effort\":\"desk\"}],\"standing\"\
+    :{\"level\":\"likely\",\"probability\":null,\"belief\":null,\"explains\":0,\"\
+    contradicted_by\":0,\"untested\":0},\"trust_of_inputs\":{\"verified\":0,\"estimated\"\
+    :0},\"history\":[{\"at\":null,\"text\":\"likely: The claim says 700 \xB5A, inside\
+    \ at most 1.5 mA from the same row's min and max in DRV8837.pdf.\"}]}"
+  review: pending
+  reviewed_at: null
+  unit: A
+  verified: confirmed
+- conditions:
+    PWM: 50kHz
+    supply: VM
+    temp: 25C
+    vcc: 3V
+    vm: 5V
+  confidence: 0.0
+  hi: 0.0015
+  lo: null
+  nominal: 0.0008
+  page: 8
+  qualifiers:
+    mode: switching
+  quantity: current_active
+  record: "{\"id\":\"fact:DRV8837:current_active:c10edfd3\",\"claim\":\"DRV8837 current_active\
+    \ is typ 0.0008, max 0.0015 A at supply=VM, vm=5V, vcc=3V, temp=25C, PWM=50kHz\"\
+    ,\"kind\":\"value\",\"origin\":{\"by\":\"model\",\"name\":\"azure/gpt-6.1-sol\"\
+    ,\"company\":\"openai\",\"at\":null},\"basis\":\"read from DRV8837.pdf page 8\"\
+    ,\"checks\":[{\"kind\":\"source\",\"by\":\"code\",\"who\":\"skanda.compiler.documents.audit.verify\"\
+    ,\"company\":null,\"result\":\"agrees\",\"detail\":\"page 8 of DRV8837.pdf shows\
+    \ typ 0.0008, max 0.0015 A\",\"at\":null},{\"kind\":\"units\",\"by\":\"code\"\
+    ,\"who\":\"skanda.confidence.checks\",\"company\":null,\"result\":\"couldnt_run\"\
+    ,\"detail\":\"Nothing to compare: no unit is expected.\",\"at\":null},{\"kind\"\
+    :\"plausibility\",\"by\":\"code\",\"who\":\"skanda.confidence.checks\",\"company\"\
+    :null,\"result\":\"agrees\",\"detail\":\"The claim says 800 \xB5A, inside at most\
+    \ 1.5 mA from the same row's min and max in DRV8837.pdf.\",\"at\":null},{\"kind\"\
+    :\"independent_read\",\"by\":\"model\",\"who\":\"bedrock/mistral.mistral-large-3-675b-instruct\"\
+    ,\"company\":\"mistral\",\"result\":\"couldnt_run\",\"detail\":\"a second reader\
+    \ could not read DRV8837.pdf for this; it tries again next compile\",\"at\":null}],\"\
+    supports\":[],\"contradicts\":[],\"assumes\":[],\"would_settle\":[{\"action\"\
+    :\"open DRV8837.pdf page 8 and check the unit it gives\",\"outcomes\":[\"the unit\
+    \ fits: it stands\",\"another unit: correct it\"],\"effort\":\"desk\"},{\"action\"\
+    :\"have a second reader check it\",\"outcomes\":[\"the reader agrees: it stands\"\
+    ,\"the reader disagrees: the engineer decides\"],\"effort\":\"desk\"}],\"standing\"\
+    :{\"level\":\"likely\",\"probability\":null,\"belief\":null,\"explains\":0,\"\
+    contradicted_by\":0,\"untested\":0},\"trust_of_inputs\":{\"verified\":0,\"estimated\"\
+    :0},\"history\":[{\"at\":null,\"text\":\"likely: The claim says 800 \xB5A, inside\
+    \ at most 1.5 mA from the same row's min and max in DRV8837.pdf.\"}]}"
+  review: pending
+  reviewed_at: null
+  unit: A
+  verified: confirmed
+- conditions:
+    PWM: No PWM
+    supply: VCC
+    temp: 25C
+    vcc: 3V
+    vm: 5V
+  confidence: 0.0
+  hi: 0.0005
+  lo: null
+  nominal: 0.0003
+  page: 8
+  qualifiers:
+    mode: nonswitching
+  quantity: current_active
+  record: "{\"id\":\"fact:DRV8837:current_active:b63f1515\",\"claim\":\"DRV8837 current_active\
+    \ is typ 0.0003, max 0.0005 A at supply=VCC, vm=5V, vcc=3V, temp=25C, PWM=No PWM\"\
+    ,\"kind\":\"value\",\"origin\":{\"by\":\"model\",\"name\":\"azure/gpt-6.1-sol\"\
+    ,\"company\":\"openai\",\"at\":null},\"basis\":\"read from DRV8837.pdf page 8\"\
+    ,\"checks\":[{\"kind\":\"source\",\"by\":\"code\",\"who\":\"skanda.compiler.documents.audit.verify\"\
+    ,\"company\":null,\"result\":\"agrees\",\"detail\":\"page 8 of DRV8837.pdf shows\
+    \ typ 0.0003, max 0.0005 A\",\"at\":null},{\"kind\":\"units\",\"by\":\"code\"\
+    ,\"who\":\"skanda.confidence.checks\",\"company\":null,\"result\":\"couldnt_run\"\
+    ,\"detail\":\"Nothing to compare: no unit is expected.\",\"at\":null},{\"kind\"\
+    :\"plausibility\",\"by\":\"code\",\"who\":\"skanda.confidence.checks\",\"company\"\
+    :null,\"result\":\"agrees\",\"detail\":\"The claim says 300 \xB5A, inside at most\
+    \ 500 \xB5A from the same row's min and max in DRV8837.pdf.\",\"at\":null},{\"\
+    kind\":\"independent_read\",\"by\":\"model\",\"who\":\"bedrock/mistral.mistral-large-3-675b-instruct\"\
+    ,\"company\":\"mistral\",\"result\":\"couldnt_run\",\"detail\":\"a second reader\
+    \ could not read DRV8837.pdf for this; it tries again next compile\",\"at\":null}],\"\
+    supports\":[],\"contradicts\":[],\"assumes\":[],\"would_settle\":[{\"action\"\
+    :\"open DRV8837.pdf page 8 and check the unit it gives\",\"outcomes\":[\"the unit\
+    \ fits: it stands\",\"another unit: correct it\"],\"effort\":\"desk\"},{\"action\"\
+    :\"have a second reader check it\",\"outcomes\":[\"the reader agrees: it stands\"\
+    ,\"the reader disagrees: the engineer decides\"],\"effort\":\"desk\"}],\"standing\"\
+    :{\"level\":\"likely\",\"probability\":null,\"belief\":null,\"explains\":0,\"\
+    contradicted_by\":0,\"untested\":0},\"trust_of_inputs\":{\"verified\":0,\"estimated\"\
+    :0},\"history\":[{\"at\":null,\"text\":\"likely: The claim says 300 \xB5A, inside\
+    \ at most 500 \xB5A from the same row's min and max in DRV8837.pdf.\"}]}"
+  review: pending
+  reviewed_at: null
+  unit: A
+  verified: confirmed
+- conditions:
+    PWM: No PWM
+    supply: VM
+    temp: 25C
+    vcc: 3V
+    vm: 5V
+  confidence: 0.0
+  hi: 0.0001
+  lo: null
+  nominal: 4.0e-05
+  page: 8
+  qualifiers:
+    mode: nonswitching
+  quantity: current_active
+  record: "{\"id\":\"fact:DRV8837:current_active:822658a3\",\"claim\":\"DRV8837 current_active\
+    \ is typ 4e-05, max 0.0001 A at supply=VM, vm=5V, vcc=3V, temp=25C, PWM=No PWM\"\
+    ,\"kind\":\"value\",\"origin\":{\"by\":\"model\",\"name\":\"azure/gpt-6.1-sol\"\
+    ,\"company\":\"openai\",\"at\":null},\"basis\":\"read from DRV8837.pdf page 8\"\
+    ,\"checks\":[{\"kind\":\"source\",\"by\":\"code\",\"who\":\"skanda.compiler.documents.audit.verify\"\
+    ,\"company\":null,\"result\":\"agrees\",\"detail\":\"page 8 of DRV8837.pdf shows\
+    \ typ 4e-05, max 0.0001 A\",\"at\":null},{\"kind\":\"units\",\"by\":\"code\",\"\
+    who\":\"skanda.confidence.checks\",\"company\":null,\"result\":\"couldnt_run\"\
+    ,\"detail\":\"Nothing to compare: no unit is expected.\",\"at\":null},{\"kind\"\
+    :\"plausibility\",\"by\":\"code\",\"who\":\"skanda.confidence.checks\",\"company\"\
+    :null,\"result\":\"agrees\",\"detail\":\"The claim says 40 \xB5A, inside at most\
+    \ 100 \xB5A from the same row's min and max in DRV8837.pdf.\",\"at\":null},{\"\
+    kind\":\"independent_read\",\"by\":\"model\",\"who\":\"bedrock/mistral.mistral-large-3-675b-instruct\"\
+    ,\"company\":\"mistral\",\"result\":\"couldnt_run\",\"detail\":\"a second reader\
+    \ could not read DRV8837.pdf for this; it tries again next compile\",\"at\":null}],\"\
+    supports\":[],\"contradicts\":[],\"assumes\":[],\"would_settle\":[{\"action\"\
+    :\"open DRV8837.pdf page 8 and check the unit it gives\",\"outcomes\":[\"the unit\
+    \ fits: it stands\",\"another unit: correct it\"],\"effort\":\"desk\"},{\"action\"\
+    :\"have a second reader check it\",\"outcomes\":[\"the reader agrees: it stands\"\
+    ,\"the reader disagrees: the engineer decides\"],\"effort\":\"desk\"}],\"standing\"\
+    :{\"level\":\"likely\",\"probability\":null,\"belief\":null,\"explains\":0,\"\
+    contradicted_by\":0,\"untested\":0},\"trust_of_inputs\":{\"verified\":0,\"estimated\"\
+    :0},\"history\":[{\"at\":null,\"text\":\"likely: The claim says 40 \xB5A, inside\
+    \ at most 100 \xB5A from the same row's min and max in DRV8837.pdf.\"}]}"
+  review: pending
+  reviewed_at: null
+  unit: A
+  verified: confirmed
+- conditions:
+    pwm: 50 kHz
+    source: Figure 6-5; approximate typical curve reading
+    supply: VM
+    temp: 25 C
+    vm: 11 V
+  confidence: 0.0
+  hi: null
+  lo: null
+  nominal: 0.00197
+  page: 10
+  qualifiers:
+    measured_on: ambient
+    mode: switching
+  quantity: current_active
+  record: '{"id":"fact:DRV8837:current_active:c0727cdc","claim":"DRV8837 current_active
+    is typ 0.00197 A at supply=VM, vm=11 V, temp=25 C, pwm=50 kHz, source=Figure 6-5;
+    approximate typical curve reading","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 10","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"disagrees","detail":"typ
+    0.00197 A is on no page of DRV8837.pdf; the read cited page 10","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 10 and read the value","outcomes":["the claimed value is there:
+    it stands","another value is there: correct it"],"effort":"desk"},{"action":"open
+    DRV8837.pdf page 10 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"contradicted","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"contradicted:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: A
+  verified: not_found
+- conditions:
+    pwm: 50 kHz
+    source: Figure 6-5; approximate typical curve reading
+    supply: VM
+    temp: 25 C
+    vm: 5 V
+  confidence: 0.0
+  hi: null
+  lo: null
+  nominal: 0.00086
+  page: 10
+  qualifiers:
+    measured_on: ambient
+    mode: switching
+  quantity: current_active
+  record: '{"id":"fact:DRV8837:current_active:2bbf1298","claim":"DRV8837 current_active
+    is typ 0.00086 A at supply=VM, vm=5 V, temp=25 C, pwm=50 kHz, source=Figure 6-5;
+    approximate typical curve reading","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 10","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"disagrees","detail":"typ
+    0.00086 A is on no page of DRV8837.pdf; the read cited page 10","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 10 and read the value","outcomes":["the claimed value is there:
+    it stands","another value is there: correct it"],"effort":"desk"},{"action":"open
+    DRV8837.pdf page 10 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"contradicted","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"contradicted:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: A
+  verified: not_found
+- conditions:
+    pwm: 50 kHz
+    source: Figure 6-6; approximate typical curve reading
+    supply: VCC
+    temp: 25 C
+    vcc: 2 V
+  confidence: 0.0
+  hi: null
+  lo: null
+  nominal: 0.000711
+  page: 10
+  qualifiers:
+    measured_on: ambient
+    mode: switching
+  quantity: current_active
+  record: '{"id":"fact:DRV8837:current_active:8e604c44","claim":"DRV8837 current_active
+    is typ 0.000711 A at supply=VCC, vcc=2 V, temp=25 C, pwm=50 kHz, source=Figure
+    6-6; approximate typical curve reading","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 10","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"disagrees","detail":"typ
+    0.000711 A is on no page of DRV8837.pdf; the read cited page 10","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 10 and read the value","outcomes":["the claimed value is there:
+    it stands","another value is there: correct it"],"effort":"desk"},{"action":"open
+    DRV8837.pdf page 10 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"contradicted","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"contradicted:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: A
+  verified: not_found
+- conditions:
+    pwm: 50 kHz
+    source: Figure 6-6; approximate typical curve reading
+    supply: VCC
+    temp: 25 C
+    vcc: 3 V
+  confidence: 0.0
+  hi: null
+  lo: null
+  nominal: 0.000685
+  page: 10
+  qualifiers:
+    measured_on: ambient
+    mode: switching
+  quantity: current_active
+  record: '{"id":"fact:DRV8837:current_active:c6f0d661","claim":"DRV8837 current_active
+    is typ 0.000685 A at supply=VCC, vcc=3 V, temp=25 C, pwm=50 kHz, source=Figure
+    6-6; approximate typical curve reading","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 10","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"disagrees","detail":"typ
+    0.000685 A is on no page of DRV8837.pdf; the read cited page 10","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 10 and read the value","outcomes":["the claimed value is there:
+    it stands","another value is there: correct it"],"effort":"desk"},{"action":"open
+    DRV8837.pdf page 10 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"contradicted","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"contradicted:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: A
+  verified: not_found
+- conditions:
+    pwm: 50 kHz
+    source: Figure 6-6; approximate typical curve reading
+    supply: VCC
+    temp: 25 C
+    vcc: 7 V
+  confidence: 0.0
+  hi: null
+  lo: null
+  nominal: 0.000822
+  page: 10
+  qualifiers:
+    measured_on: ambient
+    mode: switching
+  quantity: current_active
+  record: '{"id":"fact:DRV8837:current_active:98805abe","claim":"DRV8837 current_active
+    is typ 0.000822 A at supply=VCC, vcc=7 V, temp=25 C, pwm=50 kHz, source=Figure
+    6-6; approximate typical curve reading","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 10","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"disagrees","detail":"typ
+    0.000822 A is on no page of DRV8837.pdf; the read cited page 10","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 10 and read the value","outcomes":["the claimed value is there:
+    it stands","another value is there: correct it"],"effort":"desk"},{"action":"open
+    DRV8837.pdf page 10 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"contradicted","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"contradicted:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: A
+  verified: not_found
+- conditions:
+    nSLEEP: '0'
+    state: sleep
+    supply: VCC
+    temp: 25C
+    vcc: 3V
+    vm: 5V
+  confidence: 0.0
+  hi: 2.5e-08
+  lo: null
+  nominal: 5.0e-09
+  page: 8
+  qualifiers: {}
+  quantity: current_idle
+  record: "{\"id\":\"fact:DRV8837:current_idle:1f19e916\",\"claim\":\"DRV8837 current_idle\
+    \ is typ 5e-09, max 2.5e-08 A at supply=VCC, vm=5V, vcc=3V, temp=25C, nSLEEP=0,\
+    \ state=sleep\",\"kind\":\"value\",\"origin\":{\"by\":\"model\",\"name\":\"azure/gpt-6.1-sol\"\
+    ,\"company\":\"openai\",\"at\":null},\"basis\":\"read from DRV8837.pdf page 8\"\
+    ,\"checks\":[{\"kind\":\"source\",\"by\":\"code\",\"who\":\"skanda.compiler.documents.audit.verify\"\
+    ,\"company\":null,\"result\":\"agrees\",\"detail\":\"page 8 of DRV8837.pdf shows\
+    \ typ 5e-09, max 2.5e-08 A\",\"at\":null},{\"kind\":\"units\",\"by\":\"code\"\
+    ,\"who\":\"skanda.confidence.checks\",\"company\":null,\"result\":\"couldnt_run\"\
+    ,\"detail\":\"Nothing to compare: no unit is expected.\",\"at\":null},{\"kind\"\
+    :\"plausibility\",\"by\":\"code\",\"who\":\"skanda.confidence.checks\",\"company\"\
+    :null,\"result\":\"agrees\",\"detail\":\"The claim says 0.005 \xB5A, inside at\
+    \ most 0.025 \xB5A from the same row's min and max in DRV8837.pdf.\",\"at\":null},{\"\
+    kind\":\"independent_read\",\"by\":\"model\",\"who\":\"bedrock/mistral.mistral-large-3-675b-instruct\"\
+    ,\"company\":\"mistral\",\"result\":\"couldnt_run\",\"detail\":\"a second reader\
+    \ could not read DRV8837.pdf for this; it tries again next compile\",\"at\":null}],\"\
+    supports\":[],\"contradicts\":[],\"assumes\":[],\"would_settle\":[{\"action\"\
+    :\"open DRV8837.pdf page 8 and check the unit it gives\",\"outcomes\":[\"the unit\
+    \ fits: it stands\",\"another unit: correct it\"],\"effort\":\"desk\"},{\"action\"\
+    :\"have a second reader check it\",\"outcomes\":[\"the reader agrees: it stands\"\
+    ,\"the reader disagrees: the engineer decides\"],\"effort\":\"desk\"}],\"standing\"\
+    :{\"level\":\"likely\",\"probability\":null,\"belief\":null,\"explains\":0,\"\
+    contradicted_by\":0,\"untested\":0},\"trust_of_inputs\":{\"verified\":0,\"estimated\"\
+    :0},\"history\":[{\"at\":null,\"text\":\"likely: The claim says 0.005 \xB5A, inside\
+    \ at most 0.025 \xB5A from the same row's min and max in DRV8837.pdf.\"}]}"
+  review: pending
+  reviewed_at: null
+  unit: A
+  verified: confirmed
+- conditions:
+    nSLEEP: '0'
+    state: sleep
+    supply: VM
+    temp: 25C
+    vcc: 3V
+    vm: 5V
+  confidence: 0.0
+  hi: 9.5e-08
+  lo: null
+  nominal: 3.0e-08
+  page: 8
+  qualifiers: {}
+  quantity: current_idle
+  record: "{\"id\":\"fact:DRV8837:current_idle:cc006e0c\",\"claim\":\"DRV8837 current_idle\
+    \ is typ 3e-08, max 9.5e-08 A at supply=VM, vm=5V, vcc=3V, temp=25C, nSLEEP=0,\
+    \ state=sleep\",\"kind\":\"value\",\"origin\":{\"by\":\"model\",\"name\":\"azure/gpt-6.1-sol\"\
+    ,\"company\":\"openai\",\"at\":null},\"basis\":\"read from DRV8837.pdf page 8\"\
+    ,\"checks\":[{\"kind\":\"source\",\"by\":\"code\",\"who\":\"skanda.compiler.documents.audit.verify\"\
+    ,\"company\":null,\"result\":\"agrees\",\"detail\":\"page 8 of DRV8837.pdf shows\
+    \ typ 3e-08, max 9.5e-08 A\",\"at\":null},{\"kind\":\"units\",\"by\":\"code\"\
+    ,\"who\":\"skanda.confidence.checks\",\"company\":null,\"result\":\"couldnt_run\"\
+    ,\"detail\":\"Nothing to compare: no unit is expected.\",\"at\":null},{\"kind\"\
+    :\"plausibility\",\"by\":\"code\",\"who\":\"skanda.confidence.checks\",\"company\"\
+    :null,\"result\":\"agrees\",\"detail\":\"The claim says 0.03 \xB5A, inside at\
+    \ most 0.095 \xB5A from the same row's min and max in DRV8837.pdf.\",\"at\":null},{\"\
+    kind\":\"independent_read\",\"by\":\"model\",\"who\":\"bedrock/mistral.mistral-large-3-675b-instruct\"\
+    ,\"company\":\"mistral\",\"result\":\"couldnt_run\",\"detail\":\"a second reader\
+    \ could not read DRV8837.pdf for this; it tries again next compile\",\"at\":null}],\"\
+    supports\":[],\"contradicts\":[],\"assumes\":[],\"would_settle\":[{\"action\"\
+    :\"open DRV8837.pdf page 8 and check the unit it gives\",\"outcomes\":[\"the unit\
+    \ fits: it stands\",\"another unit: correct it\"],\"effort\":\"desk\"},{\"action\"\
+    :\"have a second reader check it\",\"outcomes\":[\"the reader agrees: it stands\"\
+    ,\"the reader disagrees: the engineer decides\"],\"effort\":\"desk\"}],\"standing\"\
+    :{\"level\":\"likely\",\"probability\":null,\"belief\":null,\"explains\":0,\"\
+    contradicted_by\":0,\"untested\":0},\"trust_of_inputs\":{\"verified\":0,\"estimated\"\
+    :0},\"history\":[{\"at\":null,\"text\":\"likely: The claim says 0.03 \xB5A, inside\
+    \ at most 0.095 \xB5A from the same row's min and max in DRV8837.pdf.\"}]}"
+  review: pending
+  reviewed_at: null
+  unit: A
+  verified: confirmed
+- conditions:
+    rating: feature summary; total sleep current
+    state: sleep
+  confidence: 0.0
+  hi: 1.2e-07
+  lo: null
+  nominal: null
+  page: 1
+  qualifiers: {}
+  quantity: current_idle
+  record: '{"id":"fact:DRV8837:current_idle:f2f20a48","claim":"DRV8837 current_idle
+    is max 1.2e-07 A at state=sleep, rating=feature summary; total sleep current","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 1","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    1 of DRV8837.pdf shows max 1.2e-07 A","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 1 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: A
+  verified: confirmed
+- conditions:
+    source: Figure 6-3; approximate typical curve reading
+    state: sleep
+    supply: VM
+    temp: 25 C
+    vm: 11 V
+  confidence: 0.0
+  hi: null
+  lo: null
+  nominal: 4.8e-06
+  page: 10
+  qualifiers:
+    measured_on: ambient
+  quantity: current_idle
+  record: '{"id":"fact:DRV8837:current_idle:13a18510","claim":"DRV8837 current_idle
+    is typ 4.8e-06 A at supply=VM, vm=11 V, temp=25 C, state=sleep, source=Figure
+    6-3; approximate typical curve reading","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 10","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"disagrees","detail":"typ
+    4.8e-06 A is on no page of DRV8837.pdf; the read cited page 10","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 10 and read the value","outcomes":["the claimed value is there:
+    it stands","another value is there: correct it"],"effort":"desk"},{"action":"open
+    DRV8837.pdf page 10 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"contradicted","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"contradicted:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: A
+  verified: not_found
+- conditions:
+    source: Figure 6-4; approximate typical curve reading
+    state: sleep
+    supply: VCC
+    temp: 25 C
+    vcc: 2 V
+  confidence: 0.0
+  hi: null
+  lo: null
+  nominal: 4.0e-09
+  page: 10
+  qualifiers:
+    measured_on: ambient
+  quantity: current_idle
+  record: '{"id":"fact:DRV8837:current_idle:7636cea6","claim":"DRV8837 current_idle
+    is typ 4e-09 A at supply=VCC, vcc=2 V, temp=25 C, state=sleep, source=Figure 6-4;
+    approximate typical curve reading","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 10","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    10 of DRV8837.pdf shows typ 4e-09 A","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 10 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: A
+  verified: confirmed
+- conditions:
+    source: Figure 6-4; approximate typical curve reading
+    state: sleep
+    supply: VCC
+    temp: 25 C
+    vcc: 3 V
+  confidence: 0.0
+  hi: null
+  lo: null
+  nominal: 2.5e-09
+  page: 10
+  qualifiers:
+    measured_on: ambient
+  quantity: current_idle
+  record: '{"id":"fact:DRV8837:current_idle:28cd2aa1","claim":"DRV8837 current_idle
+    is typ 2.5e-09 A at supply=VCC, vcc=3 V, temp=25 C, state=sleep, source=Figure
+    6-4; approximate typical curve reading","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 10","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    10 of DRV8837.pdf shows typ 2.5e-09 A","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 10 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: A
+  verified: confirmed
+- conditions:
+    source: Figure 6-4; approximate typical curve reading
+    state: sleep
+    supply: VCC
+    temp: 25 C
+    vcc: 7 V
+  confidence: 0.0
+  hi: null
+  lo: null
+  nominal: 7.5e-09
+  page: 10
+  qualifiers:
+    measured_on: ambient
+  quantity: current_idle
+  record: '{"id":"fact:DRV8837:current_idle:de3abdb0","claim":"DRV8837 current_idle
+    is typ 7.5e-09 A at supply=VCC, vcc=7 V, temp=25 C, state=sleep, source=Figure
+    6-4; approximate typical curve reading","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 10","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"disagrees","detail":"typ
+    7.5e-09 A is on no page of DRV8837.pdf; the read cited page 10","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 10 and read the value","outcomes":["the claimed value is there:
+    it stands","another value is there: correct it"],"effort":"desk"},{"action":"open
+    DRV8837.pdf page 10 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"contradicted","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"contradicted:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: A
+  verified: not_found
+- conditions:
+    package: DSG 8-Pin WSON with thermal pad
+    part: DRV8837
+  confidence: 0.0
+  hi: null
+  lo: null
+  nominal: 8.0
+  page: 4
+  qualifiers: {}
+  quantity: pin_count
+  record: '{"id":"fact:DRV8837:pin_count:acc0b9c5","claim":"DRV8837 pin_count is typ
+    8 1 at package=DSG 8-Pin WSON with thermal pad, part=DRV8837","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 4","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    4 of DRV8837.pdf shows typ 8 1","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 4 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: '1'
+  verified: confirmed
+- conditions:
+    package: WSON (DSG)
+  confidence: 0.0
+  hi: null
+  lo: null
+  nominal: 8.0
+  page: 6
+  qualifiers: {}
+  quantity: pin_count
+  record: '{"id":"fact:DRV8837:pin_count:c67aaa24","claim":"DRV8837 pin_count is typ
+    8 1 at package=WSON (DSG)","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 6","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    6 of DRV8837.pdf shows typ 8 1","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 6 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: '1'
+  verified: confirmed
+- conditions:
+    parameter: Operating virtual junction temperature, TJ
+    rating: absolute maximum
+  confidence: 0.0
+  hi: 150.0
+  lo: -40.0
+  nominal: null
+  page: 6
+  qualifiers:
+    measured_on: junction
+    mode: operating
+  quantity: temp_max
+  record: '{"id":"fact:DRV8837:temp_max:73ff033e","claim":"DRV8837 temp_max is min
+    -40, max 150 C at rating=absolute maximum, parameter=Operating virtual junction
+    temperature, TJ","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 6","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"disagrees","detail":"min
+    -40, max 150 C is on no page of DRV8837.pdf; the read cited page 6","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 6 and read the value","outcomes":["the claimed value is there:
+    it stands","another value is there: correct it"],"effort":"desk"},{"action":"open
+    DRV8837.pdf page 6 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"contradicted","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"contradicted:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: C
+  verified: not_found
+- conditions:
+    package: DSG (WSON), 8 pins
+  confidence: 0.0
+  hi: null
+  lo: null
+  nominal: 60.9
+  page: 6
+  qualifiers: {}
+  quantity: theta_ja
+  record: '{"id":"fact:DRV8837:theta_ja:509eeb75","claim":"DRV8837 theta_ja is typ
+    60.9 C/W at package=DSG (WSON), 8 pins","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 6","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    6 of DRV8837.pdf shows typ 60.9 C/W","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 6 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: C/W
+  verified: confirmed
+- conditions:
+    rating: absolute maximum
+    supply: VCC
+  confidence: 0.0
+  hi: 7.0
+  lo: null
+  nominal: null
+  page: 6
+  qualifiers: {}
+  quantity: v_in_max
+  record: '{"id":"fact:DRV8837:v_in_max:f3cb158a","claim":"DRV8837 v_in_max is max
+    7 V at supply=VCC, rating=absolute maximum","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 6","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    6 of DRV8837.pdf shows max 7 V","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 6 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: confirmed
+- conditions:
+    rating: absolute maximum
+    supply: VM
+  confidence: 0.0
+  hi: 12.0
+  lo: null
+  nominal: null
+  page: 6
+  qualifiers: {}
+  quantity: v_in_max
+  record: '{"id":"fact:DRV8837:v_in_max:9b0ce6b1","claim":"DRV8837 v_in_max is max
+    12 V at supply=VM, rating=absolute maximum","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 6","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    6 of DRV8837.pdf shows max 12 V","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 6 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: confirmed
+- conditions:
+    rating: electrical characteristics
+    supply: VCC
+    temp: 25C
+  confidence: 0.0
+  hi: 7.0
+  lo: null
+  nominal: null
+  page: 8
+  qualifiers:
+    mode: operating
+  quantity: v_in_max
+  record: '{"id":"fact:DRV8837:v_in_max:8072cdb9","claim":"DRV8837 v_in_max is max
+    7 V at supply=VCC, rating=electrical characteristics, temp=25C","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 8","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    8 of DRV8837.pdf shows max 7 V","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 8 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: confirmed
+- conditions:
+    rating: electrical characteristics
+    supply: VM
+    temp: 25C
+  confidence: 0.0
+  hi: 11.0
+  lo: null
+  nominal: null
+  page: 8
+  qualifiers:
+    mode: operating
+  quantity: v_in_max
+  record: '{"id":"fact:DRV8837:v_in_max:5032c4ec","claim":"DRV8837 v_in_max is max
+    11 V at supply=VM, rating=electrical characteristics, temp=25C","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 8","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    8 of DRV8837.pdf shows max 11 V","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 8 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: confirmed
+- conditions:
+    rating: recommended operating conditions
+    supply: VCC
+  confidence: 0.0
+  hi: 7.0
+  lo: null
+  nominal: null
+  page: 6
+  qualifiers:
+    mode: operating
+  quantity: v_in_max
+  record: '{"id":"fact:DRV8837:v_in_max:f575a68f","claim":"DRV8837 v_in_max is max
+    7 V at supply=VCC, rating=recommended operating conditions","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 6","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    6 of DRV8837.pdf shows max 7 V","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 6 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: confirmed
+- conditions:
+    rating: recommended operating conditions
+    supply: VM
+  confidence: 0.0
+  hi: 11.0
+  lo: null
+  nominal: null
+  page: 6
+  qualifiers:
+    mode: operating
+  quantity: v_in_max
+  record: '{"id":"fact:DRV8837:v_in_max:72e3d7ad","claim":"DRV8837 v_in_max is max
+    11 V at supply=VM, rating=recommended operating conditions","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 6","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    6 of DRV8837.pdf shows max 11 V","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 6 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: confirmed
+- conditions:
+    source: Power Supplies and Input Pins
+    supply: VCC and VM connected together
+  confidence: 0.0
+  hi: null
+  lo: null
+  nominal: 7.0
+  page: 16
+  qualifiers:
+    mode: operating
+  quantity: v_in_max
+  record: '{"id":"fact:DRV8837:v_in_max:dbf4892a","claim":"DRV8837 v_in_max is typ
+    7 V at supply=VCC and VM connected together, source=Power Supplies and Input Pins","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 16","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    16 of DRV8837.pdf shows typ 7 V","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 16 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: confirmed
+- conditions:
+    VCC: '> 1.8 V'
+    qualification: Internal logic remains active; load cannot be sufficiently driven
+      at low VM voltages
+    supply: VM
+  confidence: 0.0
+  hi: null
+  lo: null
+  nominal: 0.0
+  page: 16
+  qualifiers: {}
+  quantity: v_in_min
+  record: '{"id":"fact:DRV8837:v_in_min:59d6baa2","claim":"DRV8837 v_in_min is typ
+    0 V at supply=VM, VCC=> 1.8 V, qualification=Internal logic remains active; load
+    cannot be sufficiently driven at low VM voltages","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 16","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    16 of DRV8837.pdf shows typ 0 V","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 16 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: confirmed
+- conditions:
+    rating: absolute maximum
+    supply: VCC
+  confidence: 0.0
+  hi: null
+  lo: -0.3
+  nominal: null
+  page: 6
+  qualifiers: {}
+  quantity: v_in_min
+  record: '{"id":"fact:DRV8837:v_in_min:f3cb158a","claim":"DRV8837 v_in_min is min
+    -0.3 V at supply=VCC, rating=absolute maximum","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 6","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"disagrees","detail":"min
+    -0.3 V is on no page of DRV8837.pdf; the read cited page 6","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 6 and read the value","outcomes":["the claimed value is there:
+    it stands","another value is there: correct it"],"effort":"desk"},{"action":"open
+    DRV8837.pdf page 6 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"contradicted","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"contradicted:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: not_found
+- conditions:
+    rating: absolute maximum
+    supply: VM
+  confidence: 0.0
+  hi: null
+  lo: -0.3
+  nominal: null
+  page: 6
+  qualifiers: {}
+  quantity: v_in_min
+  record: '{"id":"fact:DRV8837:v_in_min:9b0ce6b1","claim":"DRV8837 v_in_min is min
+    -0.3 V at supply=VM, rating=absolute maximum","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 6","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"disagrees","detail":"min
+    -0.3 V is on no page of DRV8837.pdf; the read cited page 6","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 6 and read the value","outcomes":["the claimed value is there:
+    it stands","another value is there: correct it"],"effort":"desk"},{"action":"open
+    DRV8837.pdf page 6 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"contradicted","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"contradicted:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: not_found
+- conditions:
+    rating: electrical characteristics
+    supply: VCC
+    temp: 25C
+  confidence: 0.0
+  hi: null
+  lo: 1.8
+  nominal: null
+  page: 8
+  qualifiers:
+    mode: operating
+  quantity: v_in_min
+  record: '{"id":"fact:DRV8837:v_in_min:8072cdb9","claim":"DRV8837 v_in_min is min
+    1.8 V at supply=VCC, rating=electrical characteristics, temp=25C","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 8","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    8 of DRV8837.pdf shows min 1.8 V","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 8 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: confirmed
+- conditions:
+    rating: electrical characteristics
+    supply: VM
+    temp: 25C
+  confidence: 0.0
+  hi: null
+  lo: 0.0
+  nominal: null
+  page: 8
+  qualifiers:
+    mode: operating
+  quantity: v_in_min
+  record: '{"id":"fact:DRV8837:v_in_min:5032c4ec","claim":"DRV8837 v_in_min is min
+    0 V at supply=VM, rating=electrical characteristics, temp=25C","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 8","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    8 of DRV8837.pdf shows min 0 V","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 8 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: confirmed
+- conditions:
+    rating: recommended operating conditions
+    supply: VCC
+  confidence: 0.0
+  hi: null
+  lo: 1.8
+  nominal: null
+  page: 6
+  qualifiers:
+    mode: operating
+  quantity: v_in_min
+  record: '{"id":"fact:DRV8837:v_in_min:f575a68f","claim":"DRV8837 v_in_min is min
+    1.8 V at supply=VCC, rating=recommended operating conditions","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 6","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    6 of DRV8837.pdf shows min 1.8 V","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 6 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: confirmed
+- conditions:
+    rating: recommended operating conditions
+    supply: VM
+  confidence: 0.0
+  hi: null
+  lo: 0.0
+  nominal: null
+  page: 6
+  qualifiers:
+    mode: operating
+  quantity: v_in_min
+  record: '{"id":"fact:DRV8837:v_in_min:72e3d7ad","claim":"DRV8837 v_in_min is min
+    0 V at supply=VM, rating=recommended operating conditions","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 6","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    6 of DRV8837.pdf shows min 0 V","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 6 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: confirmed
+- conditions:
+    source: Power Supplies and Input Pins
+    supply: VCC and VM connected together
+  confidence: 0.0
+  hi: null
+  lo: null
+  nominal: 1.8
+  page: 16
+  qualifiers:
+    mode: operating
+  quantity: v_in_min
+  record: '{"id":"fact:DRV8837:v_in_min:dbf4892a","claim":"DRV8837 v_in_min is typ
+    1.8 V at supply=VCC and VM connected together, source=Power Supplies and Input
+    Pins","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from DRV8837.pdf page 16","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    16 of DRV8837.pdf shows typ 1.8 V","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null},{"kind":"independent_read","by":"model","who":"bedrock/mistral.mistral-large-3-675b-instruct","company":"mistral","result":"couldnt_run","detail":"a
+    second reader could not read DRV8837.pdf for this; it tries again next compile","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    DRV8837.pdf page 16 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"},{"action":"have a second
+    reader check it","outcomes":["the reader agrees: it stands","the reader disagrees:
+    the engineer decides"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: confirmed
+manufacturer: Texas Instruments Incorporated
+model: azure/gpt-6.1-sol
+mpn: DRV8837
+observations:
+- conditions:
+    pins: IN1, IN2, PH, EN, nSLEEP
+    rating: absolute maximum, maximum
+  label: Control pin voltage
+  page: 6
+  unit: V
+  value: 7.0
+- conditions:
+    pins: IN1, IN2, PH, EN, nSLEEP
+    rating: absolute maximum, minimum
+  label: Control pin voltage
+  page: 6
+  unit: V
+  value: -0.5
+- conditions:
+    RL: 20 ohm
+    TA: 25 C
+    VCC: 3 V
+    VM: 5 V
+    limit: maximum
+  label: Delay time, INx high to OUTx high
+  page: 9
+  unit: s
+  value: 1.6e-07
+- conditions:
+    RL: 20 ohm
+    TA: 25 C
+    VCC: 3 V
+    VM: 5 V
+    limit: maximum
+  label: Delay time, INx low to OUTx low
+  page: 9
+  unit: s
+  value: 1.6e-07
+- conditions:
+    minimum: 0Hz
+    rating: recommended operating conditions, maximum
+  label: Externally applied PWM frequency
+  page: 6
+  unit: Hz
+  value: 250000.0
+- conditions:
+    column: typical
+    io: 0.8A
+    maximum: 0.33ohm
+    tj: 25C
+    vcc: 3V
+    vm: 5V
+  label: HS + LS FET on-resistance
+  page: 8
+  unit: ohm
+  value: 0.28
+- conditions:
+    package: DSG (WSON), 8 pins
+  label: Junction-to-board characterization parameter
+  page: 6
+  unit: C/W
+  value: 32.8
+- conditions:
+    package: DSG (WSON), 8 pins
+  label: Junction-to-board thermal resistance
+  page: 6
+  unit: C/W
+  value: 32.2
+- conditions:
+    package: DSG (WSON), 8 pins
+  label: Junction-to-case (bottom) thermal resistance
+  page: 7
+  unit: C/W
+  value: 9.8
+- conditions:
+    package: DSG (WSON), 8 pins
+  label: Junction-to-case (top) thermal resistance
+  page: 6
+  unit: C/W
+  value: 71.4
+- conditions:
+    package: DSG (WSON), 8 pins
+  label: Junction-to-top characterization parameter
+  page: 6
+  unit: C/W
+  value: 1.6
+- conditions:
+    minimum: 0V
+    rating: recommended operating conditions, maximum
+  label: Logic level input voltage
+  page: 6
+  unit: V
+  value: 5.5
+- conditions:
+    reference: VCC
+    scope: Typical application example; not TI component specification
+  label: Logic supply voltage
+  page: 17
+  unit: V
+  value: 3.3
+- conditions:
+    minimum: 0A
+    rating: recommended operating conditions, maximum
+  label: Motor peak current
+  page: 6
+  unit: A
+  value: 1.8
+- conditions:
+    reference: VM
+    scope: Typical application example; not TI component specification
+  label: Motor supply voltage
+  page: 17
+  unit: V
+  value: 9.0
+- conditions:
+    rating: recommended operating conditions, maximum
+  label: Operating ambient temperature
+  page: 6
+  unit: C
+  value: 85.0
+- conditions:
+    rating: recommended operating conditions, minimum
+  label: Operating ambient temperature
+  page: 6
+  unit: C
+  value: -40.0
+- conditions:
+    RL: 20 ohm
+    TA: 25 C
+    VCC: 3 V
+    VM: 5 V
+    limit: maximum
+  label: Output disable time
+  page: 9
+  unit: s
+  value: 3.0e-07
+- conditions:
+    RL: 20 ohm
+    TA: 25 C
+    VCC: 3 V
+    VM: 5 V
+    limit: maximum
+  label: Output enable time
+  page: 9
+  unit: s
+  value: 3.0e-07
+- conditions:
+    RL: 20 ohm
+    TA: 25 C
+    VCC: 3 V
+    VM: 5 V
+    limit: maximum
+    measurement: 80% to 20%
+  label: Output fall time
+  page: 9
+  unit: s
+  value: 1.88e-07
+- conditions:
+    RL: 20 ohm
+    TA: 25 C
+    VCC: 3 V
+    VM: 5 V
+    limit: minimum
+    measurement: 80% to 20%
+  label: Output fall time
+  page: 9
+  unit: s
+  value: 3.0e-08
+- conditions:
+    RL: 20 ohm
+    TA: 25 C
+    VCC: 3 V
+    VM: 5 V
+    limit: maximum
+    measurement: 20% to 80%
+  label: Output rise time
+  page: 9
+  unit: s
+  value: 1.88e-07
+- conditions:
+    RL: 20 ohm
+    TA: 25 C
+    VCC: 3 V
+    VM: 5 V
+    limit: minimum
+    measurement: 20% to 80%
+  label: Output rise time
+  page: 9
+  unit: s
+  value: 3.0e-08
+- conditions:
+    H-BRIDGE: Disabled
+    RECOVERY: tRETRY elapses
+    fault: IOUT > 1.9 A (MIN)
+  label: Overcurrent (OCP)
+  page: 16
+  unit: A
+  value: 1.9
+- conditions:
+    column: typical
+    temp: 25C
+  label: Overcurrent deglitch time
+  page: 8
+  unit: s
+  value: 1.0e-06
+- conditions:
+    column: minimum
+    maximum: 3.5A
+    temp: 25C
+  label: Overcurrent protection trip level
+  page: 8
+  unit: A
+  value: 1.9
+- conditions:
+    column: typical
+    temp: 25C
+  label: Overcurrent retry time
+  page: 8
+  unit: s
+  value: 0.001
+- conditions:
+    rating: absolute maximum, maximum
+  label: Storage temperature, Tstg
+  page: 6
+  unit: C
+  value: 150.0
+- conditions:
+    rating: absolute maximum, minimum
+  label: Storage temperature, Tstg
+  page: 6
+  unit: C
+  value: -60.0
+- conditions:
+    reference: IOUT
+    scope: Typical application example; not TI component specification
+  label: Target rms current
+  page: 17
+  unit: A
+  value: 0.8
+- conditions:
+    H-BRIDGE: Disabled
+    RECOVERY: "TJ < 150\xB0C"
+    fault: "TJ > 150\xB0C (MIN)"
+    note: Shutdown threshold, not absolute maximum operating temperature
+  label: Thermal Shutdown (TSD)
+  page: 16
+  unit: C
+  value: 150.0
+- conditions:
+    column: typical
+    maximum: 180C
+    measured_on: Die temperature TJ
+    minimum: 150C
+  label: Thermal shutdown temperature
+  page: 8
+  unit: C
+  value: 160.0
+- conditions:
+    H-BRIDGE: Disabled
+    fault: VCC < 1.7 V
+  label: VCC undervoltage (UVLO)
+  page: 16
+  unit: V
+  value: 1.7
+- conditions:
+    RECOVERY: VCC > 1.8 V
+  label: VCC undervoltage (UVLO)
+  page: 16
+  unit: V
+  value: 1.8
+- conditions:
+    VCC: falling
+    column: maximum
+    temp: 25C
+  label: VCC undervoltage lockout
+  page: 8
+  unit: V
+  value: 1.7
+- conditions:
+    VCC: rising
+    column: maximum
+    temp: 25C
+  label: VCC undervoltage lockout
+  page: 8
+  unit: V
+  value: 1.8
+- conditions:
+    RL: 20 ohm
+    TA: 25 C
+    VCC: 3 V
+    VM: 5 V
+    limit: maximum
+  label: Wake time, nSLEEP rising edge to part active
+  page: 9
+  unit: s
+  value: 3.0e-05
+- conditions:
+    accuracy: approximately
+    location: Each input pin to ground
+  label: weak pulldown resistor
+  page: 16
+  unit: ohm
+  value: 100000.0
+part_class: H-bridge motor driver
+vocab: 800aaed2ac35
