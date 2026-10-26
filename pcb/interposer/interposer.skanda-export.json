@@ -1,0 +1,11 @@
+{
+  "bom": "e885273073aec98ceb80f124ef5049e595ec79fe41ba42995ee1c4a8ce8685d0",
+  "bom_fields": "Reference,Value,Footprint,MPN,${DNP}",
+  "kicad_cli": "9.0.8",
+  "netlist": "5ad8f18bf163e57083140b03a17b28e32424b5ccc089567c34c704206644e09f",
+  "sources": {
+    "interposer.kicad_pro": "cf8862f23cc405c8b94f63ffd3dc3997bd200967f6481768e9f3112fd37c7b9e",
+    "interposer.kicad_sch": "6059f8dc770f87aeb5d46d354626fae0508ce959d6c5f300fb037297a2a8781f"
+  },
+  "version": 1
+}

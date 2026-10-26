@@ -1,0 +1,339 @@
+absent: []
+at: '2026-10-26T14:49:15.919014+00:00'
+by: bac21ed8-89f8-479f-84b9-a74f46e678a9
+doc_path: vel/datasheets/1N5819.pdf
+doc_sha256: 4465c825da3be36cc8a180c252d5d80e7651d9dc237cd3d09822a759f39c970b
+facts:
+- conditions:
+    duty_cycle: 1%
+    if: 1.0A
+    pulse_width: 300us
+    rating: Maximum instantaneous forward voltage
+    ta: 25C
+    test_condition_note: Test-condition current unit is not printed in the table.
+  confidence: 0.0
+  hi: 0.6
+  lo: null
+  nominal: null
+  page: 1
+  qualifiers: {}
+  quantity: forward_voltage
+  record: '{"id":"fact:1N5819:forward_voltage:a96de580","claim":"1N5819 forward_voltage
+    is max 0.6 V at if=1.0A, ta=25C, pulse_width=300us, duty_cycle=1%, rating=Maximum
+    instantaneous forward voltage, test_condition_note=Test-condition current unit
+    is not printed in the table.","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from 1N5819.pdf page 1","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    1 of 1N5819.pdf shows max 0.6 V","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    1N5819.pdf page 1 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: confirmed
+- conditions:
+    duty_cycle: 1%
+    if: 3.1A
+    pulse_width: 300us
+    rating: Maximum instantaneous forward voltage
+    ta: 25C
+    test_condition_note: Test-condition current unit is not printed in the table.
+  confidence: 0.0
+  hi: 0.9
+  lo: null
+  nominal: null
+  page: 1
+  qualifiers: {}
+  quantity: forward_voltage
+  record: '{"id":"fact:1N5819:forward_voltage:cb6cc2bb","claim":"1N5819 forward_voltage
+    is max 0.9 V at if=3.1A, ta=25C, pulse_width=300us, duty_cycle=1%, rating=Maximum
+    instantaneous forward voltage, test_condition_note=Test-condition current unit
+    is not printed in the table.","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from 1N5819.pdf page 1","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    1 of 1N5819.pdf shows max 0.9 V","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    1N5819.pdf page 1 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: confirmed
+- conditions:
+    part_number: 1N5819-E3/54
+  confidence: 0.0
+  hi: null
+  lo: null
+  nominal: 0.332
+  page: 2
+  qualifiers: {}
+  quantity: mass
+  record: '{"id":"fact:1N5819:mass:f0136461","claim":"1N5819 mass is typ 0.332 g at
+    part_number=1N5819-E3/54","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from 1N5819.pdf page 2","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    2 of 1N5819.pdf shows typ 0.332 g","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    1N5819.pdf page 2 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: g
+  verified: confirmed
+- conditions:
+    part_number: 1N5819-E3/73
+  confidence: 0.0
+  hi: null
+  lo: null
+  nominal: 0.332
+  page: 2
+  qualifiers: {}
+  quantity: mass
+  record: '{"id":"fact:1N5819:mass:ac1be769","claim":"1N5819 mass is typ 0.332 g at
+    part_number=1N5819-E3/73","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from 1N5819.pdf page 2","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    2 of 1N5819.pdf shows typ 0.332 g","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    1N5819.pdf page 2 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: g
+  verified: confirmed
+- conditions:
+    basis: Two axial leads shown in DO-41 (DO-204AL) package outline
+  confidence: 0.0
+  hi: null
+  lo: null
+  nominal: 2.0
+  page: 3
+  qualifiers: {}
+  quantity: pin_count
+  record: '{"id":"fact:1N5819:pin_count:753574c7","claim":"1N5819 pin_count is typ
+    2 1 at basis=Two axial leads shown in DO-41 (DO-204AL) package outline","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from 1N5819.pdf page 3","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    3 of 1N5819.pdf shows typ 2 1","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    1N5819.pdf page 3 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: '1'
+  verified: confirmed
+- conditions:
+    rating: Maximum DC blocking voltage (VDC)
+    ta: 25C
+  confidence: 0.0
+  hi: 40.0
+  lo: null
+  nominal: null
+  page: 1
+  qualifiers: {}
+  quantity: reverse_voltage_max
+  record: '{"id":"fact:1N5819:reverse_voltage_max:d51d3147","claim":"1N5819 reverse_voltage_max
+    is max 40 V at rating=Maximum DC blocking voltage (VDC), ta=25C","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from 1N5819.pdf page 1","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    1 of 1N5819.pdf shows max 40 V","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    1N5819.pdf page 1 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: confirmed
+- conditions:
+    rating: Maximum non-repetitive peak reverse voltage (VRSM)
+    ta: 25C
+  confidence: 0.0
+  hi: 48.0
+  lo: null
+  nominal: null
+  page: 1
+  qualifiers: {}
+  quantity: reverse_voltage_max
+  record: '{"id":"fact:1N5819:reverse_voltage_max:a729ad25","claim":"1N5819 reverse_voltage_max
+    is max 48 V at rating=Maximum non-repetitive peak reverse voltage (VRSM), ta=25C","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from 1N5819.pdf page 1","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    1 of 1N5819.pdf shows max 48 V","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    1N5819.pdf page 1 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: confirmed
+- conditions:
+    rating: Maximum repetitive peak reverse voltage (VRRM)
+    ta: 25C
+  confidence: 0.0
+  hi: 40.0
+  lo: null
+  nominal: null
+  page: 1
+  qualifiers: {}
+  quantity: reverse_voltage_max
+  record: '{"id":"fact:1N5819:reverse_voltage_max:18785658","claim":"1N5819 reverse_voltage_max
+    is max 40 V at rating=Maximum repetitive peak reverse voltage (VRRM), ta=25C","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from 1N5819.pdf page 1","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    1 of 1N5819.pdf shows max 40 V","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    1N5819.pdf page 1 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: V
+  verified: confirmed
+- conditions: {}
+  confidence: 0.0
+  hi: 125.0
+  lo: -65.0
+  nominal: null
+  page: 1
+  qualifiers:
+    measured_on: junction
+    mode: operating
+  quantity: temp_max
+  record: '{"id":"fact:1N5819:temp_max:174c0652","claim":"1N5819 temp_max is min -65,
+    max 125 C","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from 1N5819.pdf page 1","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    1 of 1N5819.pdf shows min -65, max 125 C","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    1N5819.pdf page 1 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: C
+  verified: confirmed
+- conditions: {}
+  confidence: 0.0
+  hi: 125.0
+  lo: -65.0
+  nominal: null
+  page: 1
+  qualifiers:
+    measured_on: storage
+  quantity: temp_max
+  record: '{"id":"fact:1N5819:temp_max:0590a603","claim":"1N5819 temp_max is min -65,
+    max 125 C","kind":"value","origin":{"by":"model","name":"azure/gpt-6.1-sol","company":"openai","at":null},"basis":"read
+    from 1N5819.pdf page 1","checks":[{"kind":"source","by":"code","who":"skanda.compiler.documents.audit.verify","company":null,"result":"agrees","detail":"page
+    1 of 1N5819.pdf shows min -65, max 125 C","at":null},{"kind":"units","by":"code","who":"skanda.confidence.checks","company":null,"result":"couldnt_run","detail":"Nothing
+    to compare: no unit is expected.","at":null}],"supports":[],"contradicts":[],"assumes":[],"would_settle":[{"action":"open
+    1N5819.pdf page 1 and check the unit it gives","outcomes":["the unit fits: it
+    stands","another unit: correct it"],"effort":"desk"}],"standing":{"level":"likely","probability":null,"belief":null,"explains":0,"contradicted_by":0,"untested":0},"trust_of_inputs":{"verified":0,"estimated":0},"history":[{"at":null,"text":"likely:
+    Nothing to compare: no unit is expected."}]}'
+  review: pending
+  reviewed_at: null
+  unit: C
+  verified: confirmed
+- conditions:
+    mounting: Vertical PCB mounted; 9.5 mm lead length; 38 mm x 38 mm copper pads
+    note: "Footnote (1) describes thermal resistance from junction to lead; table\
+      \ identifies this row as R\u03B8JA."
+    ta: 25C
+  confidence: 0.0
+  hi: null
+  lo: null
+  nominal: 50.0
+  page: 2
+  qualifiers: {}
+  quantity: theta_ja
+  record: "{\"id\":\"fact:1N5819:theta_ja:fcb600b4\",\"claim\":\"1N5819 theta_ja is\
+    \ typ 50 C/W at ta=25C, mounting=Vertical PCB mounted; 9.5 mm lead length; 38\
+    \ mm x 38 mm copper pads, note=Footnote (1) describes thermal resistance from\
+    \ junction to lead; table identifies this row as R\u03B8JA.\",\"kind\":\"value\"\
+    ,\"origin\":{\"by\":\"model\",\"name\":\"azure/gpt-6.1-sol\",\"company\":\"openai\"\
+    ,\"at\":null},\"basis\":\"read from 1N5819.pdf page 2\",\"checks\":[{\"kind\"\
+    :\"source\",\"by\":\"code\",\"who\":\"skanda.compiler.documents.audit.verify\"\
+    ,\"company\":null,\"result\":\"agrees\",\"detail\":\"page 2 of 1N5819.pdf shows\
+    \ typ 50 C/W\",\"at\":null},{\"kind\":\"units\",\"by\":\"code\",\"who\":\"skanda.confidence.checks\"\
+    ,\"company\":null,\"result\":\"couldnt_run\",\"detail\":\"Nothing to compare:\
+    \ no unit is expected.\",\"at\":null}],\"supports\":[],\"contradicts\":[],\"assumes\"\
+    :[],\"would_settle\":[{\"action\":\"open 1N5819.pdf page 2 and check the unit\
+    \ it gives\",\"outcomes\":[\"the unit fits: it stands\",\"another unit: correct\
+    \ it\"],\"effort\":\"desk\"}],\"standing\":{\"level\":\"likely\",\"probability\"\
+    :null,\"belief\":null,\"explains\":0,\"contradicted_by\":0,\"untested\":0},\"\
+    trust_of_inputs\":{\"verified\":0,\"estimated\":0},\"history\":[{\"at\":null,\"\
+    text\":\"likely: Nothing to compare: no unit is expected.\"}]}"
+  review: pending
+  reviewed_at: null
+  unit: C/W
+  verified: confirmed
+manufacturer: Vishay General Semiconductor
+model: azure/gpt-6.1-sol
+mpn: 1N5819
+observations:
+- conditions:
+    ta: 25C
+  label: Maximum RMS voltage
+  page: 1
+  unit: V
+  value: 28.0
+- conditions:
+    lead_length: 9.5mm
+    tl: 90C
+  label: Maximum average forward rectified current
+  page: 1
+  unit: A
+  value: 1.0
+- conditions:
+    duty_cycle: 1%
+    pulse_width: 300us
+    ta: 100C
+    vr: 40V
+  label: Maximum average reverse current at rated DC blocking voltage
+  page: 1
+  unit: A
+  value: 0.01
+- conditions:
+    duty_cycle: 1%
+    pulse_width: 300us
+    ta: 25C
+    vr: 40V
+  label: Maximum average reverse current at rated DC blocking voltage
+  page: 1
+  unit: A
+  value: 0.001
+- conditions:
+    ta: 25C
+  label: Peak forward surge current, 8.3 ms single half sine-wave superimposed on
+    rated load
+  page: 1
+  unit: A
+  value: 25.0
+- conditions:
+    duration_max: 10s
+  label: "Solder dip 275 \xB0C max. 10 s, per JESD 22-B106"
+  page: 1
+  unit: C
+  value: 275.0
+- conditions:
+    frequency: 1.0MHz
+    ta: 25C
+    vr: 4.0V
+  label: Typical junction capacitance
+  page: 1
+  unit: F
+  value: 1.1e-10
+- conditions:
+    mounting: Vertical PCB mounted; 9.5 mm lead length; 38 mm x 38 mm copper pads
+    symbol: "R\u03B8JL"
+    ta: 25C
+  label: Typical thermal resistance
+  page: 2
+  unit: C/W
+  value: 15.0
+- conditions:
+    ta: 25C
+  label: Voltage rate of change (rated VR)
+  page: 1
+  unit: V/s
+  value: 10000000000.0
+part_class: Schottky Barrier Plastic Rectifier
+vocab: 800aaed2ac35

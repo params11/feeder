@@ -1,0 +1,42 @@
+1N5819:
+  by: python
+  failed: "the manufacturer's site blocks automated downloads (URLError) \u2014 open\
+    \ http://www.vishay.com/docs/88525/1n5817.pdf in a browser, save the PDF"
+  url: http://www.vishay.com/docs/88525/1n5817.pdf
+AP1117-33:
+  by: python
+  failed: "the manufacturer's site blocks automated downloads (URLError) \u2014 open\
+    \ http://www.diodes.com/datasheets/AP1117.pdf in a browser, save the PDF"
+  url: http://www.diodes.com/datasheets/AP1117.pdf
+DRV8837:
+  by: python
+  failed: "the manufacturer's site blocks automated downloads (URLError) \u2014 open\
+    \ http://www.ti.com/lit/ds/symlink/drv8837.pdf in a browser, save the PDF"
+  url: http://www.ti.com/lit/ds/symlink/drv8837.pdf
+LED_RGBA:
+  by: app
+  failed: HTTP 200, text/html; charset=utf-8
+  url: https://datasheet.lcsc.com/lcsc/2003172139_MEIHUA-MHS110FRGBCT_C496820.pdf
+LED_RGBA_ALT:
+  by: app
+  failed: HTTP 200, text/plain
+  url: https://optoelectronics.liteon.com/upload/download/DS22-2008-0044/LTST-C19HE1WT.pdf
+MC34063AD:
+  by: app
+  fetched: '2026-10-26T14:47:48+00:00'
+  sha256: 4034968a7fce193ff7c469095f7ec1b15d3874a8d8c784335dc4fc9a75c1fd1a
+  url: http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF
+STM32F031C6Tx:
+  by: app
+  fetched: '2026-10-26T14:47:50+00:00'
+  sha256: 36b17e3dce7952734960b6c7193718750c2bfdff65f6561a850a45c77d224431
+  url: http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00104043.pdf
+STM32F031K6Ux:
+  by: app
+  fetched: '2026-10-26T14:47:52+00:00'
+  sha256: 36b17e3dce7952734960b6c7193718750c2bfdff65f6561a850a45c77d224431
+  url: http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00104043.pdf
+SWD_10:
+  by: app
+  failed: HTTP 200, text/html
+  url: http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf

@@ -1,0 +1,11 @@
+{
+  "bom": "6d55ede2608dbca7e20c359957f7c7dbc246f05857c9ca2f22e369a86a75b6e2",
+  "bom_fields": "Reference,Value,Footprint,MPN,${DNP}",
+  "kicad_cli": "9.0.8",
+  "netlist": "cc19b4f4209699fad698dc4a011d6b52086ca56909e379c2634d2aa4316cc062",
+  "sources": {
+    "mobo.kicad_pro": "70cb44a7351508a8628f1e535ae558f5bfdb8ba37762bfe4d3b88ac5b5d0aa24",
+    "mobo.kicad_sch": "3e138ef52ea3a6be3db33df25bd8c5973527752ecb7468e70f05555ac18ef784"
+  },
+  "version": 1
+}

@@ -1,0 +1,11 @@
+{
+  "bom": "f1e1cbe120b4ac67439e3586ab31ba1aebe3dfe5d2c054308e8523e79d19bb89",
+  "bom_fields": "Reference,Value,Footprint,MPN,${DNP}",
+  "kicad_cli": "9.0.8",
+  "netlist": "7a6a32cc2e40faa8a4e47d5c642ee87ef3b054d7ac4f6d3e428d436a364cb7d4",
+  "sources": {
+    "light-diffusion.kicad_pro": "94e3471f40756e69210fc90651cc7071bd1068e4f5cad3e4b01689e2922b538f",
+    "light-diffusion.kicad_sch": "dbc069ba011fbb56d93d46cbd8824ef2f43b456be4e734610b029c318f8b787a"
+  },
+  "version": 1
+}

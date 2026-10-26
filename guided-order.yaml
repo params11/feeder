@@ -1,0 +1,47 @@
+# Guided order (update 30). `instructed` is your dictated order — this design's default
+# for every unit. `advised` was written once by Vel and is never rewritten by a compile:
+# "reset the order" clears instructed, "replan the order" clears advised and the next
+# compile rebuilds it. Hand-written comments are not preserved.
+advised:
+  order:
+  - connectivity:interposer/+3.3V|GND:isolation
+  - polarity:interposer/U1:polarity_marking
+  - net_voltage:interposer/+3.3V:voltage
+  - rail_current:interposer/+3.3V:current_idle
+  - rail_current:interposer/+3.3V:current_active
+  - connectivity:mobo/+10V|GND:isolation
+  - connectivity:mobo/+3V3|+10V:isolation
+  - connectivity:mobo/+3V3|GND:isolation
+  - polarity:mobo/D6:polarity_marking
+  - polarity:mobo/D9:polarity_marking
+  - net_voltage:mobo/+10V:voltage
+  - net_voltage:mobo/+3V3:voltage
+  - rail_current:mobo/+10V:current_idle
+  - rail_current:mobo/+10V:current_active
+  - rail_current:mobo/+3V3:current_idle
+  - rail_current:mobo/+3V3:current_active
+  - mass:FDM/frame-8:mass
+  - mass:FDM/drive-motor-bracket:mass
+  - mass:FDM/drive-motor-cover:mass
+  - mass:FDM/peel-gear-frame-8-12:mass
+  - mass:FDM/peel-gear:mass
+  - mass:FDM/peel-worm-gear:mass
+  - mass:FDM/release-lever:mass
+  - mass:FDM/spool-holder:mass
+  - mass:FDM/thimble:mass
+  - mass:FDM/tape-guide:mass
+  - mass:FIL/PLA-filament:mass
+  - mass:FST/M3x14mm-flat-head:mass
+  - mass:FST/M3x12mm-self-tapping-flat-head:mass
+  - mass:MISC/feeder-compression-spring:mass
+  - mass:PCA/mobo:mass
+  - mass:MISC/drive-wheel:mass
+  - mass:PCB/light-diffusion:mass
+  - mass:PCB/photon-8mm-fid:mass
+  - mass:MISC/n20-motor:mass
+  - mass:MISC/right-angle-n20:mass
+  - mass:MISC/shaft-collar:mass
+  - mass:stage:step:board/mobo:mass
+  - mass:stage:step:machine:mass
+  reason: 'Nothing worth moving: no lessons, incidents, changed checks, or stated
+    intent.'

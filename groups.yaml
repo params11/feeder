@@ -1,0 +1,132 @@
+# Groups — what belongs together on this design (update 30).
+# Written once by Vel on 2026-10-26; edit freely, Vel never rewrites this file.
+# "reset the groups" starts over.
+# owner: the teammate (email, name or user id) who accepts this group's numbers.
+# A row named _goals says who owns the goals; with none, whoever stated the first goal.
+# Any other row with no owner: whoever is working decides.
+- name: Tape drive
+  because: The drive motor, wheel, mounting parts and drive signals advance the component
+    tape.
+  parts:
+  - mech:FDM/drive-motor-bracket
+  - mech:FDM/drive-motor-cover
+  - mech:MISC/drive-wheel
+  nets:
+  - DRIVE1
+  - DRIVE2
+  - DRIVE_M1
+  - DRIVE_M2
+  - DRIVE_QUAD_A
+  - DRIVE_QUAD_B
+  refdes: []
+  files: []
+  owner: null
+- name: Cover-tape peel mechanism
+  because: The peel gears and peel motor signals form the cover-tape removal mechanism.
+  parts:
+  - mech:FDM/peel-gear
+  - mech:FDM/peel-gear-frame-8-12
+  - mech:FDM/peel-worm-gear
+  nets:
+  - PEEL1
+  - PEEL2
+  - PEEL_M1
+  - PEEL_M2
+  refdes: []
+  files: []
+  owner: null
+- name: Feeder frame and tape guide
+  because: The frame, guide and release hardware support and constrain the tape path.
+  parts:
+  - mech:FDM/frame-8
+  - mech:FDM/tape-guide
+  - mech:FDM/release-lever
+  - mech:MISC/feeder-compression-spring
+  nets: []
+  refdes: []
+  files: []
+  owner: null
+- name: Spool holder
+  because: The spool holder supports the tape supply reel.
+  parts:
+  - mech:FDM/spool-holder
+  nets: []
+  refdes: []
+  files: []
+  owner: null
+- name: Power
+  because: The supply rails and regulator feedback signals belong to power distribution
+    and conversion.
+  parts: []
+  nets:
+  - +VDC
+  - +10V
+  - +3V3
+  - +3.3V
+  - GND
+  - Net-(U5-DC)
+  - Net-(U5-TC)
+  - Net-(U5-Vfb)
+  refdes:
+  - U5
+  files: []
+  owner: null
+- name: Main controller
+  because: The motherboard carries the controller, clock, reset and programming interfaces.
+  parts:
+  - board:mobo
+  - mech:PCA/mobo
+  - mech:stage:step:board/mobo
+  nets:
+  - BOOT0
+  - RESET
+  - OSC_IN
+  - OSC_OUT
+  - SWCLK
+  - SWDIO
+  - PA0
+  - PA1
+  - PA3
+  - SW1
+  - SW2
+  - MOTOR_ENABLE
+  refdes:
+  - Y1
+  files:
+  - pcb/mobo/mobo.skanda-bom.csv
+  - pcb/mobo/mobo.skanda.net
+  owner: null
+- name: Communications interposer
+  because: The interposer and transceiver direction signals support the serial communications
+    interface.
+  parts:
+  - board:interposer
+  nets:
+  - RS-485+
+  - RS-485-
+  - MCU_RX
+  - MCU_TX
+  - DE
+  - ~{RE}
+  - Net-(U1-DE)
+  - Net-(U1-~{RE})
+  refdes: []
+  files:
+  - pcb/interposer/interposer.skanda-bom.csv
+  - pcb/interposer/interposer.skanda.net
+  owner: null
+- name: Status lighting
+  because: The RGB LED signals and light-diffusion part provide visible status indication.
+  parts:
+  - mech:PCB/light-diffusion
+  nets:
+  - LED_R
+  - LED_G
+  - LED_B
+  - Net-(D1-A)
+  - Net-(D1-BK)
+  - Net-(D1-GK)
+  refdes:
+  - D1
+  files: []
+  owner: null
